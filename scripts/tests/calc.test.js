@@ -1,6 +1,4 @@
-/**
- * @jest-environment jsdom
- */
+
 
 // If test file is below the js file being tested in directory, need to use .. to connect it
 const addition = require("../calc");        // Import function that is being tested from the calc.js file. Assign at constant so it doesn't get overwritten
